@@ -1,0 +1,882 @@
+[
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/Main.cpp.o -c /home/ming/NiuTensor/source/Main.cpp",
+  "file": "/home/ming/NiuTensor/source/Main.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/network/XBackwardFunc.cpp.o -c /home/ming/NiuTensor/source/network/XBackwardFunc.cpp",
+  "file": "/home/ming/NiuTensor/source/network/XBackwardFunc.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/network/XBackwardLoss.cpp.o -c /home/ming/NiuTensor/source/network/XBackwardLoss.cpp",
+  "file": "/home/ming/NiuTensor/source/network/XBackwardLoss.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/network/XBackwardMath.cpp.o -c /home/ming/NiuTensor/source/network/XBackwardMath.cpp",
+  "file": "/home/ming/NiuTensor/source/network/XBackwardMath.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/network/XBackwardShape.cpp.o -c /home/ming/NiuTensor/source/network/XBackwardShape.cpp",
+  "file": "/home/ming/NiuTensor/source/network/XBackwardShape.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/network/XNet.cpp.o -c /home/ming/NiuTensor/source/network/XNet.cpp",
+  "file": "/home/ming/NiuTensor/source/network/XNet.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/network/XNoder.cpp.o -c /home/ming/NiuTensor/source/network/XNoder.cpp",
+  "file": "/home/ming/NiuTensor/source/network/XNoder.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/fnnlm/FNNLM.cpp.o -c /home/ming/NiuTensor/source/sample/fnnlm/FNNLM.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/fnnlm/FNNLM.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/T2TDecoder.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/T2TDecoder.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/T2TDecoder.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/T2TEncoder.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/T2TEncoder.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/T2TEncoder.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/T2TModel.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/T2TModel.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/T2TModel.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/Transformer.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/Transformer.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/Transformer.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TAttention.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TAttention.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TAttention.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TCommonModules.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TCommonModules.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TCommonModules.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TEmbedding.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TEmbedding.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TEmbedding.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TFNN.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TFNN.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TFNN.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TGatedLinearUnit.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TGatedLinearUnit.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TGatedLinearUnit.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TLayerHistory.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TLayerHistory.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TLayerHistory.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TLayerNormal.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TLayerNormal.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TLayerNormal.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TNNUtil.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TNNUtil.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TNNUtil.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TOutput.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TOutput.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TOutput.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/module/T2TUtility.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/module/T2TUtility.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/module/T2TUtility.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/train/T2TBatchLoader.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/train/T2TBatchLoader.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/train/T2TBatchLoader.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/train/T2TTrainer.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/train/T2TTrainer.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/train/T2TTrainer.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/translate/T2TDataSet.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/translate/T2TDataSet.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/translate/T2TDataSet.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/translate/T2TLengthPenalty.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/translate/T2TLengthPenalty.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/translate/T2TLengthPenalty.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/translate/T2TPredictor.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/translate/T2TPredictor.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/translate/T2TPredictor.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/translate/T2TSearch.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/translate/T2TSearch.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/translate/T2TSearch.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/translate/T2TTranslator.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/translate/T2TTranslator.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/translate/T2TTranslator.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/sample/transformer/translate/T2TVocab.cpp.o -c /home/ming/NiuTensor/source/sample/transformer/translate/T2TVocab.cpp",
+  "file": "/home/ming/NiuTensor/source/sample/transformer/translate/T2TVocab.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XBLAS.cpp.o -c /home/ming/NiuTensor/source/tensor/XBLAS.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XBLAS.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XCall.cpp.o -c /home/ming/NiuTensor/source/tensor/XCall.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XCall.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XDataType.cpp.o -c /home/ming/NiuTensor/source/tensor/XDataType.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XDataType.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XDevice.cpp.o -c /home/ming/NiuTensor/source/tensor/XDevice.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XDevice.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XGlobal.cpp.o -c /home/ming/NiuTensor/source/tensor/XGlobal.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XGlobal.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XHeap.cpp.o -c /home/ming/NiuTensor/source/tensor/XHeap.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XHeap.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XLink.cpp.o -c /home/ming/NiuTensor/source/tensor/XLink.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XLink.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XList.cpp.o -c /home/ming/NiuTensor/source/tensor/XList.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XList.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XMem.cpp.o -c /home/ming/NiuTensor/source/tensor/XMem.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XMem.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XName.cpp.o -c /home/ming/NiuTensor/source/tensor/XName.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XName.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XPRunner.cpp.o -c /home/ming/NiuTensor/source/tensor/XPRunner.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XPRunner.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XQueue.cpp.o -c /home/ming/NiuTensor/source/tensor/XQueue.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XQueue.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XStream.cpp.o -c /home/ming/NiuTensor/source/tensor/XStream.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XStream.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XTensor.cpp.o -c /home/ming/NiuTensor/source/tensor/XTensor.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XTensor.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XThread.cpp.o -c /home/ming/NiuTensor/source/tensor/XThread.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XThread.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/XUtility.cpp.o -c /home/ming/NiuTensor/source/tensor/XUtility.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/XUtility.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/Div.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/Div.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/Div.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/DivDim.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/DivDim.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/DivDim.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/Mask.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/Mask.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/Mask.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/MatrixMul.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMul.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMul.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/MatrixMul2D.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMul2D.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMul2D.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/MatrixMul2DMultiTheading.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMul2DMultiTheading.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMul2DMultiTheading.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/MatrixMul2DParallel.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMul2DParallel.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMul2DParallel.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/MatrixMulBatched.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMulBatched.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/MatrixMulBatched.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/MulAndShift.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/MulAndShift.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/MulAndShift.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/Multiply.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/Multiply.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/Multiply.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/MultiplyDim.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/MultiplyDim.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/MultiplyDim.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/Sub.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/Sub.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/Sub.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/Sum.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/Sum.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/Sum.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/SumDim.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/SumDim.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/SumDim.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/arithmetic/XTensorBLAS.cpp.o -c /home/ming/NiuTensor/source/tensor/core/arithmetic/XTensorBLAS.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/arithmetic/XTensorBLAS.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/getandset/ConvertDataType.cpp.o -c /home/ming/NiuTensor/source/tensor/core/getandset/ConvertDataType.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/getandset/ConvertDataType.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/getandset/OnehotAndIndex.cpp.o -c /home/ming/NiuTensor/source/tensor/core/getandset/OnehotAndIndex.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/getandset/OnehotAndIndex.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/getandset/Select.cpp.o -c /home/ming/NiuTensor/source/tensor/core/getandset/Select.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/getandset/Select.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/getandset/SetData.cpp.o -c /home/ming/NiuTensor/source/tensor/core/getandset/SetData.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/getandset/SetData.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/math/Binary.cpp.o -c /home/ming/NiuTensor/source/tensor/core/math/Binary.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/math/Binary.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/math/Clip.cpp.o -c /home/ming/NiuTensor/source/tensor/core/math/Clip.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/math/Clip.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/math/Compare.cpp.o -c /home/ming/NiuTensor/source/tensor/core/math/Compare.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/math/Compare.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/math/Normalize.cpp.o -c /home/ming/NiuTensor/source/tensor/core/math/Normalize.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/math/Normalize.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/math/ScaleAndShift.cpp.o -c /home/ming/NiuTensor/source/tensor/core/math/ScaleAndShift.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/math/ScaleAndShift.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/math/Unary.cpp.o -c /home/ming/NiuTensor/source/tensor/core/math/Unary.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/math/Unary.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/CopyBlocks.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/CopyBlocks.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/CopyBlocks.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/CopyBlocksInGrid.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/CopyBlocksInGrid.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/CopyBlocksInGrid.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/CopyBlocksOnSite.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/CopyBlocksOnSite.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/CopyBlocksOnSite.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/CopyData2D.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/CopyData2D.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/CopyData2D.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/CopyInGrid.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/CopyInGrid.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/CopyInGrid.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/CopyIndexed.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/CopyIndexed.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/CopyIndexed.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/CopyValues.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/CopyValues.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/CopyValues.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/Gather.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/Gather.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/Gather.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/movement/Spread.cpp.o -c /home/ming/NiuTensor/source/tensor/core/movement/Spread.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/movement/Spread.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/reduce/ReduceMax.cpp.o -c /home/ming/NiuTensor/source/tensor/core/reduce/ReduceMax.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/reduce/ReduceMax.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/reduce/ReduceMean.cpp.o -c /home/ming/NiuTensor/source/tensor/core/reduce/ReduceMean.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/reduce/ReduceMean.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/reduce/ReduceSum.cpp.o -c /home/ming/NiuTensor/source/tensor/core/reduce/ReduceSum.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/reduce/ReduceSum.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/reduce/ReduceSumAll.cpp.o -c /home/ming/NiuTensor/source/tensor/core/reduce/ReduceSumAll.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/reduce/ReduceSumAll.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/reduce/ReduceSumSquared.cpp.o -c /home/ming/NiuTensor/source/tensor/core/reduce/ReduceSumSquared.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/reduce/ReduceSumSquared.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/reduce/ReduceVariance.cpp.o -c /home/ming/NiuTensor/source/tensor/core/reduce/ReduceVariance.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/reduce/ReduceVariance.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/reduce/VectorBuffer.cpp.o -c /home/ming/NiuTensor/source/tensor/core/reduce/VectorBuffer.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/reduce/VectorBuffer.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Concatenate.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Concatenate.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Concatenate.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/ConcatenateSolely.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/ConcatenateSolely.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/ConcatenateSolely.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/IsSameShaped.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/IsSameShaped.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/IsSameShaped.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/MakeMergeBlockIndex.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/MakeMergeBlockIndex.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/MakeMergeBlockIndex.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/MakeSplitBlockIndex.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/MakeSplitBlockIndex.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/MakeSplitBlockIndex.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Merge.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Merge.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Merge.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/MergeBlockLists.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/MergeBlockLists.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/MergeBlockLists.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Permute.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Permute.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Permute.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Reshape.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Reshape.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Reshape.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Split.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Split.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Split.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Squeeze.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Squeeze.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Squeeze.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Stack.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Stack.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Stack.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Transpose.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Transpose.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Transpose.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/shape/Unsqueeze.cpp.o -c /home/ming/NiuTensor/source/tensor/core/shape/Unsqueeze.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/shape/Unsqueeze.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/sort/Sort.cpp.o -c /home/ming/NiuTensor/source/tensor/core/sort/Sort.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/sort/Sort.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/sort/TopK.cpp.o -c /home/ming/NiuTensor/source/tensor/core/sort/TopK.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/sort/TopK.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/utilities/CheckData.cpp.o -c /home/ming/NiuTensor/source/tensor/core/utilities/CheckData.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/utilities/CheckData.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/utilities/Float16.cpp.o -c /home/ming/NiuTensor/source/tensor/core/utilities/Float16.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/utilities/Float16.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/utilities/FlushToMem.cpp.o -c /home/ming/NiuTensor/source/tensor/core/utilities/FlushToMem.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/utilities/FlushToMem.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/utilities/SetAscendingOrder.cpp.o -c /home/ming/NiuTensor/source/tensor/core/utilities/SetAscendingOrder.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/utilities/SetAscendingOrder.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/core/utilities/XMatrixSegment.cpp.o -c /home/ming/NiuTensor/source/tensor/core/utilities/XMatrixSegment.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/core/utilities/XMatrixSegment.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/Dropout.cpp.o -c /home/ming/NiuTensor/source/tensor/function/Dropout.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/Dropout.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/DropoutWithIndex.cpp.o -c /home/ming/NiuTensor/source/tensor/function/DropoutWithIndex.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/DropoutWithIndex.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/HardTanH.cpp.o -c /home/ming/NiuTensor/source/tensor/function/HardTanH.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/HardTanH.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/Identity.cpp.o -c /home/ming/NiuTensor/source/tensor/function/Identity.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/Identity.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/LogSoftmax.cpp.o -c /home/ming/NiuTensor/source/tensor/function/LogSoftmax.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/LogSoftmax.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/Loss.cpp.o -c /home/ming/NiuTensor/source/tensor/function/Loss.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/Loss.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/Rectify.cpp.o -c /home/ming/NiuTensor/source/tensor/function/Rectify.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/Rectify.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/Sigmoid.cpp.o -c /home/ming/NiuTensor/source/tensor/function/Sigmoid.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/Sigmoid.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/function/Softmax.cpp.o -c /home/ming/NiuTensor/source/tensor/function/Softmax.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/function/Softmax.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/loss/CrossEntropy.cpp.o -c /home/ming/NiuTensor/source/tensor/loss/CrossEntropy.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/loss/CrossEntropy.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TAbsolute.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TAbsolute.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TAbsolute.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TClip.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TClip.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TClip.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TCompare.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TCompare.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TCompare.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TConcatenate.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TConcatenate.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TConcatenate.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TConcatenateSolely.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TConcatenateSolely.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TConcatenateSolely.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TConvertDataType.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TConvertDataType.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TConvertDataType.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TCopyIndexed.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TCopyIndexed.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TCopyIndexed.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TCopyValues.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TCopyValues.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TCopyValues.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TCos.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TCos.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TCos.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TCrossEntropy.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TCrossEntropy.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TCrossEntropy.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TDiv.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TDiv.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TDiv.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TDivDim.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TDivDim.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TDivDim.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TDropout.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TDropout.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TDropout.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TExp.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TExp.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TExp.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TGather.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TGather.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TGather.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/THardTanH.cpp.o -c /home/ming/NiuTensor/source/tensor/test/THardTanH.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/THardTanH.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TIdentity.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TIdentity.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TIdentity.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TLog.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TLog.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TLog.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TLogSoftmax.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TLogSoftmax.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TLogSoftmax.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TLoss.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TLoss.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TLoss.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TMatrixMul.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TMatrixMul.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TMatrixMul.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TMatrixMul2D.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TMatrixMul2D.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TMatrixMul2D.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TMatrixMul2DParallel.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TMatrixMul2DParallel.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TMatrixMul2DParallel.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TMatrixMulBatched.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TMatrixMulBatched.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TMatrixMulBatched.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TMerge.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TMerge.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TMerge.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TMultiply.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TMultiply.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TMultiply.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TMultiplyDim.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TMultiplyDim.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TMultiplyDim.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TNegate.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TNegate.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TNegate.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TNormalize.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TNormalize.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TNormalize.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TPower.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TPower.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TPower.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TRectify.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TRectify.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TRectify.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TReduceMax.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TReduceMax.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TReduceMax.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TReduceMean.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TReduceMean.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TReduceMean.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TReduceSum.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TReduceSum.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TReduceSum.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TReduceSumAll.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TReduceSumAll.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TReduceSumAll.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TReduceSumSquared.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TReduceSumSquared.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TReduceSumSquared.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TReduceVariance.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TReduceVariance.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TReduceVariance.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TRound.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TRound.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TRound.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TScaleAndShift.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TScaleAndShift.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TScaleAndShift.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSelect.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSelect.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSelect.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSetAscendingOrder.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSetAscendingOrder.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSetAscendingOrder.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSetData.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSetData.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSetData.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSigmoid.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSigmoid.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSigmoid.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSign.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSign.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSign.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSin.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSin.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSin.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSoftmax.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSoftmax.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSoftmax.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSort.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSort.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSort.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSplit.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSplit.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSplit.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSpread.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSpread.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSpread.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSub.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSub.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSub.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSum.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSum.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSum.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TSumDim.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TSumDim.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TSumDim.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TTan.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TTan.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TTan.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TTopK.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TTopK.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TTopK.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TTranspose.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TTranspose.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TTranspose.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TUnsqueeze.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TUnsqueeze.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TUnsqueeze.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/TXMem.cpp.o -c /home/ming/NiuTensor/source/tensor/test/TXMem.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/TXMem.cpp"
+},
+{
+  "directory": "/home/ming/NiuTensor/build",
+  "command": "/usr/bin/c++ -DNiuTensor_EXPORTS  -fPIC   -std=c++11 -o CMakeFiles/NiuTensor.dir/source/tensor/test/Test.cpp.o -c /home/ming/NiuTensor/source/tensor/test/Test.cpp",
+  "file": "/home/ming/NiuTensor/source/tensor/test/Test.cpp"
+}
+]

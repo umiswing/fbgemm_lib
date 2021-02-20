@@ -88,7 +88,7 @@ inline void col_offsets_with_zero_pt_s8acc32(
 }
 void fbgemmPacked8Pack(
 		//XTensor out,
-		int8_t* packedbuf,
+		int8_t*& packedbuf,
 		const float* inData,
 		const Type packType,
 		const bool transpose,
@@ -274,5 +274,17 @@ int main()
 	{
         	cout<<static_cast<int16_t>(bPacked[i])<<"  ";
 	}
-	cout<<nrow<<' '<<ncol<<endl;
+    cout<<endl;
+
+  //// copy quantization scale
+  //memcpy(packedbuf + (packsize - n * (sizeof(float) + sizeof(int32_t) + sizeof(int32_t))), bqScale, n * sizeof(float));
+  //// copy quantization offset
+  //memcpy(packedbuf + (packsize - n * (sizeof(int32_t) + sizeof(int32_t))), bqZeropoint, n * sizeof(int32_t));
+  //// copy column offsets to the memory
+  //memcpy(packedbuf + (packsize - n * sizeof(int32_t)), col_offsets, n * sizeof(int32_t));
+	for(auto i=0;i<(packsize - ncol * (sizeof(float) + sizeof(int32_t) + sizeof(int32_t)));++i)
+	{
+        	cout<<static_cast<int16_t>(bPacked[i])<<"  ";
+	}
+    cout<<endl;
 }

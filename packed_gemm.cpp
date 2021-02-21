@@ -186,7 +186,7 @@ void fbgemmPacked8Pack(
   PackBMatrix<int8_t> packedBN(
       transpose ? matrix_op_t::Transpose : matrix_op_t::NoTranspose,
       nrow, ncol, quantized, transpose ? nrow : ncol, packedbuf, 1, params);
-  packedBN.printPackedMatrix("fuck");
+  //packedBN.printPackedMatrix("fuck");
 
   // copy quantization scale
   memcpy(packedbuf + (packsize - n * (sizeof(float) + sizeof(int32_t) + sizeof(int32_t))), bqScale, n * sizeof(float));
@@ -203,6 +203,105 @@ void fbgemmPacked8Pack(
   delete[] col_offsets;
   delete[] bqScale;
   delete[] bqZeropoint;
+}
+
+
+// GEMM operation on the packed B matrix in 8 bit integers
+// C: output matrix
+// A: A matrix
+// B: B matrix (packed)
+// m: the number of rows in A and C
+// n: the number of columns in B and C
+// k: the number of columns in A and the number of rows in B
+// transA: whether A matrix is transposed or not
+// transB: whether B matrix is transposed or not
+void fbgemmPacked8Gemm(XTensor& C,
+                       const XTensor A,
+                       const XTensor B,
+                       int8_t* const bPackedBuf,
+                       const size_t m,
+                       const size_t n,
+                       const size_t k,
+                       const int transA,
+                       const int transB) {
+
+  // pack type
+  //marian::Type packType = B->type();
+  Type packType = Type::packed8avx2;
+
+  const fbgemm::BlockingFactors* params = getBlockingFactors(packType);
+
+  if((packType == Type::packed8avx2 && fbgemmHasAvx512Support())
+     || (packType == Type::packed8avx512 && !fbgemmHasAvx512Support())) {
+    //ABORT("FBGEMM doesn't allow to use {} packing order on {} CPUs",
+          //packType == Type::packed8avx2 ? "AVX2" : "AVX512",
+          //fbgemmHasAvx512Support() ? "AVX512" : "AVX2");
+  }
+
+
+  // compute range to quantize A (activations) - (min/max quantization)
+  float min_est = std::numeric_limits<float>::max(), max_est = std::numeric_limits<float>::min();
+
+  //int elem = A->shape().elements();
+  int elem = A.unitNum;
+  float* data = (float*)A.data;
+
+  // AVX based find min/max
+  FindMinMax(data, &min_est, &max_est, elem);
+
+  float ascale = (max_est - min_est) / 255;
+  int32_t azeropoint = (int32_t)(255 - max_est / ascale);
+
+  std::vector<int32_t> row_offset_buf(PackAWithQuantRowOffset<uint8_t>::rowOffsetBufferSize());
+  PackAWithQuantRowOffset<uint8_t> packAN(
+      transA ? matrix_op_t::Transpose : matrix_op_t::NoTranspose,
+      (int32_t)(transA ? k : m),
+      (int32_t)(transA ? m : k),
+      (float*)A.data,
+      (int32_t)(transA ? m : k),
+      nullptr, /*buffer for packed matrix*/
+      ascale,
+      azeropoint,
+      1, /*groups*/
+      row_offset_buf.data(),
+      params);
+
+  // packed matrix size of B
+  int bPackSize = PackMatrix<PackBMatrix<int8_t>, int8_t>::packedBufferSize((int32_t)k, (int32_t)n);
+
+  // retrieve B matrix
+  //int8_t* bdata = B->data<int8_t>();
+  const int8_t* bdata = bPackedBuf;
+  float* const bqScale = new float[n];
+  memcpy(bqScale, bdata + bPackSize, n * sizeof(float));
+
+  int32_t* bqZeropoint = new int32_t[n];
+  memcpy(bqZeropoint, bdata + bPackSize + n * sizeof(float), n * sizeof(int32_t));
+
+  int32_t* col_offsets = new int32_t[n];
+  memcpy(col_offsets, bdata + bPackSize + n * (sizeof(float) + sizeof(int32_t)), n * sizeof(int32_t));
+
+  DoNothing<float, float> doNothingObj{};
+  ReQuantizeForFloat<false, QuantizationGranularity::OUT_CHANNEL> outputProcObj(
+      doNothingObj,
+      ascale,
+      bqScale,
+      azeropoint,
+      bqZeropoint,
+      packAN.getRowOffsetBuffer(),
+      col_offsets,
+      nullptr,
+      (std::uint32_t) n);
+
+  PackBMatrix<int8_t> repackedBN(
+    transB ? matrix_op_t::Transpose : matrix_op_t::NoTranspose, (int32_t) k, (int32_t) n, bdata, (int32_t) (transB ? k : n), /*different with marian*/nullptr, 1, params);
+
+  // gemm computation
+  fbgemmPacked(packAN, repackedBN, (float*)C.data, (int32_t*)C.data, (int32_t) n, outputProcObj, 0, 1, params);
+
+  delete[] col_offsets;
+  delete[] bqZeropoint;
+  delete[] bqScale;
 }
 
 void printTensor(XTensor & x,int row, int col)
@@ -240,7 +339,7 @@ void printTensorInt8(XTensor & x,int row, int col)
 }
 int main()
 {
-	XTensor b;
+	XTensor a,b,c;
 	int8_t* bPacked=nullptr;
 	int dim=5;
 	vector<int> shape;
@@ -256,8 +355,12 @@ int main()
 			ncol,
 			packsize
 			);
+    InitTensor2D(&a,dim,dim,nts::X_FLOAT);
 	InitTensor2D(&b, dim, dim, nts::X_FLOAT);
+    InitTensor2D(&c,dim,dim,X_FLOAT);
+    a.SetDataRand(2,7);
 	b.SetDataRand(2,7);
+    printTensor(a,dim,dim);
 	printTensor(b,dim,dim);
 	fbgemmPacked8Pack(
 			bPacked,
@@ -268,23 +371,18 @@ int main()
 			ncol,
 			packsize
 			);
+    fbgemmPacked8Gemm(
+            c,
+            a,
+            b,
+            bPacked,
+            dim,
+            dim,
+            dim,
+            0,
+            0
+            );
+    printTensor(c,dim,dim);
 	//printTensorInt8(bPacked,nrow,ncol);
-	
-	for(auto i=0;i<(packsize - ncol * (sizeof(float) + sizeof(int32_t) + sizeof(int32_t)));++i)
-	{
-        	cout<<static_cast<int16_t>(bPacked[i])<<"  ";
-	}
-    cout<<endl;
 
-  //// copy quantization scale
-  //memcpy(packedbuf + (packsize - n * (sizeof(float) + sizeof(int32_t) + sizeof(int32_t))), bqScale, n * sizeof(float));
-  //// copy quantization offset
-  //memcpy(packedbuf + (packsize - n * (sizeof(int32_t) + sizeof(int32_t))), bqZeropoint, n * sizeof(int32_t));
-  //// copy column offsets to the memory
-  //memcpy(packedbuf + (packsize - n * sizeof(int32_t)), col_offsets, n * sizeof(int32_t));
-	for(auto i=0;i<(packsize - ncol * (sizeof(float) + sizeof(int32_t) + sizeof(int32_t)));++i)
-	{
-        	cout<<static_cast<int16_t>(bPacked[i])<<"  ";
-	}
-    cout<<endl;
 }
